@@ -167,6 +167,7 @@ font-size: 300px;
 
 #author{
     font-size: 1.8rem;
+    font-weight: bolder;
     color: white;
     font-family: cursive;
 
@@ -175,6 +176,7 @@ font-size: 300px;
 {
     
     font-size: 1.7rem;
+    font-weight: bolder;
     color: white;
     font-family: cursive;
 }
