@@ -57,7 +57,7 @@ setInterval(function() {
     // your code goes here...
     randomQuote();
 
-},  60000);
+},  20000);
 
 
 
