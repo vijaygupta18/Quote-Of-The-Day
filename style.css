@@ -1,7 +1,11 @@
 body
 {
     background-color: #38455f !important;
-
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 
@@ -78,7 +82,7 @@ margin-left: 40%;
 .share 
 {
 
-left: 35%;
+margin-left: 35%;
 margin-top: 2%;
 
     
@@ -162,7 +166,7 @@ font-size: 300px;
 }
 
 #author{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: white;
     font-family: cursive;
 
@@ -170,13 +174,13 @@ font-size: 300px;
 #randomQuote
 {
     
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: white;
     font-family: cursive;
 }
 .share 
 {
-    left: 20%;
+    margin-left: 20%;
 top: 20%;
     
 }
