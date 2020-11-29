@@ -1,0 +1,192 @@
+body
+{
+    background-color: #38455f !important;
+
+}
+
+
+#author{
+    font-size: 1.9rem;
+    color: white;
+    font-family: cursive;
+
+}
+#randomQuote
+{
+    
+    font-size: 1.8rem;
+    color: white;
+    font-family: cursive;
+}
+
+
+.title h1
+{
+    font-family: "Vibur", cursive;
+    font-weight: bold;
+margin-left: 45%;
+font-size: 2.5rem;
+color: white;
+font-style: oblique;
+text-decoration: underline;
+
+
+margin-top: 5%;
+    animation: neon .08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
+  }
+}
+
+
+
+
+.button
+{
+
+margin-top: 5%;
+margin-left: 40%;
+
+
+}
+.btn:hover
+{
+    color:white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+}
+
+
+
+.share 
+{
+
+left: 35%;
+margin-top: 2%;
+
+    
+}
+.share i
+{
+margin-right: 10%;
+font-size: 3.7rem;
+cursor: pointer;
+
+}
+
+.share i:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+.foot
+{
+   
+    color: white;
+    
+     margin-left: 43%;
+     margin-top: 3%;
+}
+.hrt
+{
+    color: red;
+}
+.foot a:hover
+{
+    color: yellow;
+}
+
+
+.tooltiptext {
+  visibility: hidden;
+  width: 88px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+font-size: 14px;
+top: 30px;
+  /* Position the tooltip */
+  position: absolute;
+  left: 270px;
+  z-index: 1;
+}
+
+
+
+
+@media only screen and (max-width: 676px)
+{
+  .title h1
+{
+margin-left: 10%;
+font-size: 2rem;
+margin-top: 5%;
+
+}  
+.button
+{
+margin-top: 20%;
+margin-left: 26%;
+font-size: 300px;
+
+}
+.foot
+{
+   
+    color: white;
+    font-weight: bolder;
+     margin-left: 29%; 
+     margin-top: 15%;
+}
+
+#author{
+    font-size: 1.5rem;
+    color: white;
+    font-family: cursive;
+
+}
+#randomQuote
+{
+    
+    font-size: 1.4rem;
+    color: white;
+    font-family: cursive;
+}
+.share 
+{
+    left: 20%;
+top: 20%;
+    
+}
+.share i
+{
+padding-right: 10%;
+font-size: 3rem;
+}
+
+
+
+}
+

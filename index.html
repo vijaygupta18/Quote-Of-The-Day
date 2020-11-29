@@ -1,0 +1,130 @@
+<html>
+
+<head lang="en">
+
+  <title>Random Quote Generator</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vibur&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/f1238f9f9a.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+
+</head>
+<style>
+  blockquote{
+    align-items: center;
+    border-left:none;
+    margin: auto;
+    
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-color: #414a72;
+    margin-top: 25px;
+    color:white;
+    width: 62vh;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:80px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+ 
+    margin-top: -65px;
+}
+</style>
+
+<body>
+ 
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12 title">
+        <h1>Quote of the Day</h1>
+      </div>
+
+      <div class="container">
+        <blockquote class="quote-box">
+          <p class="quotation-mark">
+            “
+          </p>
+          <p class="quote-text">
+            <p id="randomQuote"></p>
+          </p>
+          <hr>
+          <div class="blog-post-actions">
+            <p class="blog-post-bottom pull-right" id="author">
+              
+            </p>
+    
+          </div>
+        </blockquote>
+    </div>
+    
+
+      <div class="col button">
+        <a href="#" class="btn btn-secondary" id="newQuote" onclick=" randomQuote();"><i
+            class="fa fa-quote-left"></i> Click For New Quote</a></a>
+
+      </div>
+
+      <div class="col-sm-12 ">
+        <div class="col-sm-12 share">
+          <a href="#" id="tweetMe" target="-blank"><i class="fa fa-twitter twitter #tweetMe" data-toggle="tooltip"
+              data-placement="bottom" style="color: #17A2B8;"></i></a>
+
+
+          <a href="#" id="share" target="_blank"><i class="fa fa-whatsapp whatsapp " data-toggle="tooltip"
+              data-placement="bottom" style="color: #7AD06D;"></i></a>
+
+          <a href="#" id="copMe" onclick="f1()"><i class="fa fa-clipboard clipboard" data-toggle="tooltip"
+              data-placement="bottom" style="color: white "></i>
+            <span class="tooltiptext" id="tooltiptext">Copied</span></a>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-12 foot">
+        Made with <i class="fa fa-heart hrt"> </i> by <a href="#">Vijay</a>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
