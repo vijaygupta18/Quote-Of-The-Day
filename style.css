@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
 body
 {
     background-color: #38455f !important;
@@ -170,6 +172,7 @@ font-size: 300px;
     font-weight: bolder;
     color: white;
     font-family: cursive;
+font-family: 'Special Elite';
 
 }
 #randomQuote
@@ -178,7 +181,7 @@ font-size: 300px;
     font-size: 1.7rem;
     font-weight: bolder;
     color: white;
-    font-family: cursive;
+    font-family: 'Special Elite';
 }
 .share 
 {
@@ -195,9 +198,5 @@ font-size: 3rem;
 
 }
 
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
-html, body {
-  font-family: 'Special Elite', cursive;
-}
 
